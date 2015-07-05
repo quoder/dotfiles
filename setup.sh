@@ -20,6 +20,7 @@ echo "+                                                               +"
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 #
 #
+sudo apt-get update
 sudo apt-get install vim
 mkdir .vim
 cp -a  ~/dotfiles/vimfiles/. ~/.vim/
@@ -58,8 +59,8 @@ echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 #
 #
 sudo apt-get install zsh
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 cp ~/dotfiles/.zshrc ~/
-cp -a ~/dotfiles/.oh-my-zsh/. ~/
 #
 #
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
