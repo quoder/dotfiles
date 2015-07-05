@@ -4,3 +4,6 @@
 [submodule "vimfiles/bundle/vim-airline"]
 	path = vimfiles/bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "vimfiles/bundle/snipmate.vim"]
+	path = vimfiles/bundle/snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
