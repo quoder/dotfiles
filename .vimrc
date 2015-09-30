@@ -46,7 +46,7 @@ filetype plugin indent on
 ""\   endif
 "
 ""if $COLORTERM == 'gnome-terminal'
-""	set t_Co=256
+set t_Co=256
 ""endif
 "Set t_Co=256 when to use the full colors otherwise for solarized, use 16
 if has('gui_running')
