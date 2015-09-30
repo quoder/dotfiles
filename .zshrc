@@ -83,5 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DEFAULT_USER=mkmishra
-alias tmux="TERM=screen-256color-bce tmux"
-#export TERM=screen-256color-bce
+#For tmux
+#alias tmux="TERM=screen-256color-bce tmux"
+#export TERM="xterm-256color"
