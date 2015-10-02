@@ -9,7 +9,7 @@ git clone https://github.com/quoder/dotfiles.git
 
 ```
 
-Make sure that `setup.sh` has required permissions to execute. Now,
+Make sure that `setup.sh` has required permissions to execute and your language is UTF-8 enabled. Now,
 
 `./setup.sh`
 
